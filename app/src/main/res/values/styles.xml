@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <!--隐藏原来的ActionBar，为了在本project中使用ToolBar-->
+        <item name="windowActionBar">false</item>
+
+        <!--隐藏ActionBar的标题-->
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
